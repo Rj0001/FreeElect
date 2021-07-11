@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+.wrapper {
+	width: 100%;
+}
+header {
+	height: 100px;
+	background: #ffffff;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.centerbox {
+	width: 10%;
+	
+}
+.logo {
+	
+	width: 88px;
+	height: 67px;
+	float: left;
+	line-height: 150px;
+	display: flex;
+	justify-content: center;
+	padding-left: 150px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+nav {
+	padding-right: 0;
+	width: 60%;
+	margin: auto;
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	
+  font-family: 'Raleway';
+  font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 20px 0 50px;
+	color: rgb(0, 0, 0);
+}
+
+.banner-area {
+	width: 100%;
+	height: 800px;
+	position: fixed;
+	top: 100px;
+  bottom: 200px;
+	background-image: url(/images/Component\ 9\ –\ 1@2x.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: poppins;
+	text-transform: uppercase;
+	color: #fff;
+}
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 800px;
+	background: #ebebeb;
+	height: 2500px;
+}
+.content-area h2 {
+	font-family: 'Oleo Script';
+    font-weight: 700;
+	letter-spacing: 4px;
+	padding: 0 3%;
+	padding-top: 60px;
+	font-size: 40px;
+	margin: 0;
+	text-align: center;
+}
+.content-area p {
+	padding: 5% 10% 5% 10%;
+	font-family: 'Roboto';
+	font-size: 35px;
+	line-height: 30px;
+}
+.member {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.member img {
+    display: block;
+    margin-right: auto;
+	align-items: center;
+    width:420px;
+    height:300px;
+}
+
+.member p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-size: 20px;
+	
+}
+
+
+.member:hover .desc-popup{
+    height: 100%;
+}
+.desc-popup p{
+color:#ebebeb;
+font-family: 'Roboto';
+font-size: 40px;
+
+}
+.desc-popup {
+    width: 100%;
+    height: 0%;
+    background-color: rgba(54, 54, 54, 0.8);
+    top: 0;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+.wrappercont{
+	width: auto;
+	height: auto;
+	padding: 50px;
+	grid-column: 3;
+	
+}
+
+.imgbox{
+	padding: 25px;
+	width: 420px;
+	height: auto;
+	
+}
+
+th, td{
+    padding: 5em 5em 5em 2em;
+    text-align:justify;
+    
+}
